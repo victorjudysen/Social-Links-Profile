@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-size: 14px;
 }
 
 :root {
@@ -20,8 +21,10 @@
 
 .card {
     border: 1px solid var(--black);
-    
-    
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
 }
 
 img {
@@ -33,7 +36,13 @@ button {
     margin-right: auto;
     margin-left: auto;
     width: 50%;
-    color: var(--grey);
+    padding: 10px;
+    margin: 10px;
+    background-color: var(--grey);
+}
 
+.github, .frontend-mentor, .linkedin, .linkedin, .twitter, .instagram {
+    font-weight: 600;
+    color: var(--white);
 }
 
