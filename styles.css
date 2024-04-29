@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --green: hsl(75, 94%, 57%);
+    --black: hsl(0, 0%, 8%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -9,5 +16,24 @@
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+.card {
+    border: 1px solid var(--black);
+    
+    
+}
+
+img {
+    border-radius: 50%;
+}
+
+button {
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    color: var(--grey);
+
 }
 
