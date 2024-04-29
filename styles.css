@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 :root {
@@ -9,6 +9,7 @@
     --white: hsl(0, 0%, 100%);
     --grey: hsl(0, 0%, 20%);
     --dark-grey: hsl(0, 0%, 12%);
+    --blue: hsl(228, 45%, 44%); 
 }
 .attribution { 
     font-size: 11px; 
@@ -16,7 +17,7 @@
 }
 
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--blue);
 }
 
 .card {
@@ -29,6 +30,16 @@
 
 img {
     border-radius: 50%;
+}
+
+.name {
+    font-size: 20px;
+    margin-bottom: -10px;
+}
+
+.location {
+    color: var(--green);
+    margin-bottom: 25px;
 }
 
 button {
