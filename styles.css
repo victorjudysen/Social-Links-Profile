@@ -52,6 +52,7 @@ card::before {
 
 img {
     border-radius: 50%;
+    
 }
 
 .name {
@@ -69,11 +70,16 @@ img {
     color: var(--white);
 }
 
+.name, .location, .description {
+    display: flex;
+    justify-content: center;
+}
+
 button {
     border-radius: 10px;
     margin-right: auto;
     margin-left: auto;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     margin: 5px;
     background-color: var(--grey);
