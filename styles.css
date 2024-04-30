@@ -33,7 +33,11 @@ body {
     padding: 30px;
     background-color: var(--dark-grey);
     border-radius: 15px;
+    max-width: 400px;
+    position: relative;
 }
+
+
 
 img {
     border-radius: 50%;
